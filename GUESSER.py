@@ -1,5 +1,5 @@
-
-greet = input("Hey..👍✌️! How are you doing ? {good/bad}").lower().strip()
+print("Hi there..! I'm Python.")
+greet = input("How are you doing ? {good/bad}").lower().strip()
 if greet == "good":
     que1 = input("that's great. shall we try a fun number game😊 ? {yes/no}")
     if que1 == "yes":
